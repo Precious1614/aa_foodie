@@ -1,0 +1,103 @@
+.navbar-cont {
+  width: 100%;
+  height: 6rem;
+  background: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+.navbar {
+  width: 85%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.aa-navlinks > ul {
+  display: flex;
+  gap: 8rem;
+}
+
+.menuItems {
+  color: var(--color-white);
+  font-size: 1.25rem;
+  font-family: var(--font-inter);
+  font-weight: 400;
+  cursor: pointer;
+}
+.aa-navbtn > button {
+  width: 13rem;
+  height: 3.5rem;
+  border-radius: 1.25rem;
+  font-weight: 700;
+  font-family: var(--font-inter);
+  font-size: 1rem;
+  color: var(--color-primary);
+  background: var(--color-bg-btn);
+  position: relative;
+  cursor: pointer;
+}
+
+.try-relative {
+  position: absolute;
+}
+
+.get-menuitems {
+  background-color: var(--color-black);
+  width: 13rem;
+  height: 11rem;
+  margin-top: 3rem;
+}
+
+.get-menuitems:before {
+  content: "";
+  position: absolute;
+  height: 5rem;
+  width: 0;
+  top: -80px;
+  border-width: 0 6.5rem 3rem;
+  border-style: solid;
+  border-color: transparent transparent var(--color-black);
+}
+.get-menuitems > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.get-menuitems li {
+  line-height: 3rem;
+}
+.get-link {
+  color: var(--color-white);
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.get-login {
+  text-decoration: underline;
+}
+
+@media (max-width: 1340px) {
+  .aa-navlinks > ul {
+    gap: 5rem;
+  }
+}
+
+@media (max-width: 1230px) {
+  .aa-navlinks > ul {
+    gap: 2.5rem;
+  }
+}
+@media (max-width: 1100px) {
+  .menuItems {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .navbar {
+    width: 90%;
+  }
+}

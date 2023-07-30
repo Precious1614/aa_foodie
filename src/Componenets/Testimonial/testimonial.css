@@ -1,0 +1,48 @@
+.test__cont {
+  margin: 5rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: black; */
+}
+.test__cont > h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  font-family: var(--font-mont);
+}
+.aa__slider-cont {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  transition: all 200ms linear;
+  
+}
+
+.card-testimonial {
+  background: var(--color-primary);
+  margin: 2rem 1rem;
+  width: 30rem !important;
+  height: 19rem !important;
+  border-radius: 2.5rem;
+  padding: 4rem 4rem;
+}
+.card-testimonial > p {
+  font-size: 1rem;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  color: var(--color-white);
+}
+.card-img {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+.card-img > p {
+  margin-left: 2rem;
+  font-size: 1rem;
+  font-family: var(--font-inter);
+  font-weight: 500;
+  color: var(--color-white);
+}

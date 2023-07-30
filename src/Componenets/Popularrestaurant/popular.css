@@ -1,0 +1,39 @@
+.aa__popular-cont {
+  width: 84%;
+  margin: auto;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4rem;
+}
+.aa__popular-cont > h1 {
+  font-size: 3rem;
+}
+.popular-card {
+  gap: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+}
+.food-card {
+  /* background-color: blue; */
+}
+.card-text > a {
+  font-size: 2rem;
+  color: var(--color-black);
+  font-weight: 700;
+}
+
+.icon-cont {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.icon-cont > p {
+  margin-left: 0.5rem;
+}

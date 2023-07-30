@@ -1,0 +1,129 @@
+.aa__card-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  font-family: var(--font-inter);
+}
+.aa__card-cont > h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.aa__card-cont > p {
+  font-size: 1.5rem;
+}
+.aa__card {
+  background-color: var(--color-primary);
+  width: 55rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+.aa__signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.aa__input {
+  padding: 0 2rem;
+  width: 45rem;
+  height: 4rem;
+  background: #fff;
+  border-radius: 1.25rem;
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.aa__input > input {
+  font-family: var(--font-inter);
+  flex: 1;
+  margin-left: 0.5rem;
+  height: 3rem;
+}
+.aa__input > input:focus {
+  outline: transparent;
+}
+.aa__signup-form > button {
+  width: 28rem;
+  height: 5rem;
+  border-radius: 1.25rem;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  font-size: 2rem;
+  color: var(--color-black);
+  background: var(--color-bg-btn);
+  position: relative;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+small {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  color: var(--color-white);
+  font-size: 0.9rem;
+  font-weight: 400;
+  /* font-family: var(--font-inter); */
+}
+
+.login-form {
+  padding-top: 6rem;
+  padding-bottom: 4rem;
+  /* margin-bottom: 5rem; */
+}
+.login-cont {
+  margin-top: 3rem;
+}
+
+small > a {
+  color: var(--color-white);
+}
+
+
+@media (max-width: 1100px) {
+  .aa__card-cont > h1 {
+    font-size: 2rem;
+  }
+  .aa__card-cont > p {
+    font-size: 1.2rem;
+  }
+  .aa__card {
+    background-color: var(--color-primary);
+    width: 45rem;
+  }
+
+  .aa__input {
+    width: 35rem;
+  }
+}
+@media (max-width: 768px) {
+  .aa__card-cont > h1 {
+    font-size: 1.8rem;
+  }
+  .aa__card-cont > p {
+    font-size: 1rem;
+  }
+  .aa__card {
+    background-color: var(--color-primary);
+    width: 35rem;
+  }
+
+  .aa__input {
+    width: 25rem;
+  }
+  small {
+    font-size: 0.5rem;
+  }
+  .aa__signup-form > button {
+    width: 15rem;
+    height: 4.5rem;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+  }
+}
