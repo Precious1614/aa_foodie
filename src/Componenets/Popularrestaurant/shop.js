@@ -13,24 +13,7 @@ export const SHOPS = [
     id: 1,
     vendorName: "KFC",
     productImage: KFC,
-    food: [
-      // {
-      //   id: 1,
-      //   foodName: "EggStar Meal",
-      //   foodImg: eggstar,
-      //   desc:
-      //     "An Egg served with White Rice, Spaghetti, Fried Rice or Jollof Rice with a delicious sauce.",
-      //   price: 400,
-      // },
-      // {
-      //   id: 1,
-      //   foodName: "EggStar Meal",
-      //   foodImg: eggstar,
-      //   desc:
-      //     "An Egg served with White Rice, Spaghetti, Fried Rice or Jollof Rice with a delicious sauce.",
-      //   price: 300,
-      // },
-    ],
+   
   },
   {
     id: 2,
@@ -414,31 +397,6 @@ export const SHOPS = [
     id: 15,
     vendorName: "KFC",
     productImage: ChickenRepublic,
-    food: [
-      // {
-      //   id: 1,
-      //   foodName: "EggStar Meal",
-      //   foodImg: eggstar,
-      //   desc:
-      //     "An Egg served with White Rice, Spaghetti, Fried Rice or Jollof Rice with a delicious sauce.",
-      //   price: 500,
-      // },
-      // {
-      //   id: 2,
-      //   foodName: "Refuel Dodo Max Meal",
-      //   foodImg: bigmeal,
-      //   desc:
-      //     "One piece of Soulfully Spiced Fried Chicken served with your choice of Spaghetti, Fried PLUS our tasty NEW Plaintain Cubes and a refreshing PET drink",
-      //   price: 500,
-      // },
-      // {
-      //   id: 3,
-      //   foodName: "New Big Crew Meal",
-      //   foodImg: ricedodo,
-      //   desc:
-      //     "Enjoy a succulent full Rotisserie Chicken served with 4 portions of Spaghetti, Fried or Jollof Rice PLUS 2 portions of Coleslaw Moin-Moin or Dodo Cubes and 4 x PET drinks",
-      //   price: 500,
-      // },
-    ],
+    
   },
 ];
