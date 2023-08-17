@@ -6,11 +6,9 @@ import { Link } from "react-router-dom";
 import { CartContext } from "../../context/CartContext";
 
 function CartModal() {
-  const { cart, cartLength } = useContext(CartContext);
+  const { cart } = useContext(CartContext);
   const [increaseItem, setIncreaseItem] = useState(false);
-  const [show, setShow] = useState(false);
-  // const handleClose = () => setShow(false);
-  // const handleOpen = () => setShow(true);
+  
 
   let total = 0;
   let charges = 0;

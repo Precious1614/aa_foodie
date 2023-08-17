@@ -9,14 +9,12 @@ import { click } from "@testing-library/user-event/dist/click";
 
 function UserTopnav() {
   const [show, setShow] = useState(false);
-  const [increaseItem, setIncreaseItem] = useState(false);
   const { cart, cartLength } = useContext(CartContext);
   const handleClose = () => setShow(false);
   const handleOpen = () => setShow(true);
 
   let total = 0;
 
-  let charges = 0;
   let calculatedTotal = () => {
     cart.forEach((item) => {
       total = total + item.price * item.quantity;

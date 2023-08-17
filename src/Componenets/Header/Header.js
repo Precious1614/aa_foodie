@@ -16,7 +16,7 @@ function Header() {
           <p>Browse Restaurants Near You</p>
           <form className="browse__cont">
             <input type="text" name="" id="" placeholder="Enter Address" />
-            <div className="location-cont">
+             <div className="location-cont">
               <GoLocation />
               <button>use current location</button>
             </div>

@@ -2,8 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import App from "./App";
-// import reportWebVitals from "./reportWebVitals";
-// import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.js";
 import "jquery";
 import "@popperjs/core";
@@ -12,7 +10,7 @@ import {
   BrowserRouter as Router,
   Route,
   BrowserRouter,
-  Routes,
+  
 } from "react-router-dom";
 import "./index.css";
 
