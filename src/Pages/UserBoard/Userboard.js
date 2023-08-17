@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import "../UserBoard/userboard.css";
 import MoreVendors from "./MoreVendors";
-import ParticularVendor from "./ParticularVendor";
 import UserAside from "./UserAside";
 import UserTopnav from "./UserTopnav";
 import { CartContext } from "../../context/CartContext";

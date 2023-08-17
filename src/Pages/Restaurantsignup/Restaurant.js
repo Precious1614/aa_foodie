@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React from "react";
 import Navbar from "../../Componenets/Navbar/Navbar";
 import "../../Pages/page.css";
 import { BsPerson } from "react-icons/bs";

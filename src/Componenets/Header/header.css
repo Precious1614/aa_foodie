@@ -31,6 +31,8 @@ header {
   flex-basis: 35%;
   position: relative;
   z-index: -1;
+  /* background-color: red; */
+  overflow: hidden;
 }
 .header__right::before {
   position: absolute;
@@ -82,8 +84,14 @@ header {
   font-weight: 500;
   font-family: var(--font-inter);
 }
-/* @media (max-width: 1340px) {
+@media (max-width: 1040px) {
     header {
         width: 80%;
       }
-  } */
+      .header__right{
+        display: none;
+      }
+      .header__left{
+        flex-basis: 100%;
+      }
+  }

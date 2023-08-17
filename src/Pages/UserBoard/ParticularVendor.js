@@ -89,7 +89,7 @@ function ParticularVendor() {
   useEffect(() => {
     setShopItems(food);
   }, []);
-  const { cart, setCartLength, setCart } = useContext(CartContext);
+  const { cart, setCartLength } = useContext(CartContext);
 
   const handleAddCart = (foodItem) => {
     if (cart.length === 0) {
@@ -97,7 +97,7 @@ function ParticularVendor() {
       cart.push(foodItem);
     } else {
       const findfoodItem = cart.findIndex(
-        (cartfoodItem) => foodItem == cartfoodItem
+        (cartfoodItem) => foodItem === cartfoodItem
       );
       if (findfoodItem === -1) {
         foodItem.quantity = 1;

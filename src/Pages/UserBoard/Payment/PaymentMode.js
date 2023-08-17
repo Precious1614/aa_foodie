@@ -13,7 +13,7 @@ import { useContext } from "react";
 import { CartContext } from "../../../context/CartContext";
 
 function PaymentMode() {
-  const { cart, cartLength } = useContext(CartContext);
+  const { cart} = useContext(CartContext);
 
   let total = 0;
   let charges = 0;
